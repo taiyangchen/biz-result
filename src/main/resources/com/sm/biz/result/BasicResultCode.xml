@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="GB2312"?>
+<resource-bundle name="ResultCode">
+    <message id="SUCCESS">
+		<data>执行成功</data>
+		<code>20000</code>
+	</message>
+	<message id="INVALID_PARAM">
+		<data>参数不合法</data>
+		<code>40001</code>
+	</message>
+	<message id="DAO_FAILURE">
+		<data>执行数据访问操作失败</data>
+		<code>50001</code>
+	</message>
+	<message id="SERVICE_FAILURE">
+		<data>执行服务操作失败</data>
+		<code>50002</code>
+	</message>
+	<message id="GENERIC_FAILURE">
+		<data>执行命令失败</data>
+		<code>50003</code>
+	</message>
+	<message id="BIZ_FAILURE">
+		<data>执行业务逻辑操作失败</data>
+		<code>50004</code>
+	</message>
+<!-- 	<message id="REDO"> -->
+<!-- 		<data>执行服务操作失败</data> -->
+<!-- 		<code>30001</code> -->
+<!-- 	</message> -->
+<!-- 	<message id="LIMIT_OF_RETRY"> -->
+<!-- 		<data> 重试次数上限</data> -->
+<!-- 		<code>30002</code> -->
+<!-- 	</message> -->
+	<message id="ERROR">
+		<data>执行出错</data>
+		<code>59999</code>
+	</message>
+</resource-bundle>
